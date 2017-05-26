@@ -1,0 +1,26 @@
+body {
+    background-color: #BFBFBF;
+    font-family: verdana, sans-serif;
+    color: #5c3da0;
+    overflow-y: scroll;
+}
+
+html {
+    background-color: #BFBFBF;
+}
+
+table {
+    color: black;
+}
+
+td:first-child,
+th:first-child {
+    background-color: #BFBFBF;
+    border-color:  #BFBFBF;
+}
+
+td:last-child,
+th:last-child {
+        background-color: white;
+    border-radius:  0px 60px 60px 0px;
+}

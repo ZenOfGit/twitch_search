@@ -1,0 +1,22 @@
+{{#each model as |stream|}}
+
+<table class="table">
+    <tr>
+        <tbody>
+            <tr>
+                <td>
+                    Stream preview pic here
+                </td>
+                <td>
+                    <strong>
+                           <a href="https://www.twitch.tv">Twitch Link</a> </strong>
+                    <br> Streamer: {{stream.name}}
+                    <br> Game: {{stream.game}}
+                </td>
+            </tr>
+        </tbody>
+    </tr>
+</table>
+
+
+{{/each}} {{outlet}}
